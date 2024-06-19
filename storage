@@ -1,0 +1,30 @@
+Azure Files offers two industry-standard file system protocols for mounting Azure file shares: the Server Message Block (SMB) protocol and the Network File System (NFS) protocol.
+
+Azure Files offers two types of file shares: standard and premium. The premium tier stores data on modern solid-state drives (SSDs), while the standard tier uses hard disk drives (HDDs).
+
+Create virtual networks
+Completed
+100 XP
+2 minutes
+You can create new virtual networks at any time. You can also add virtual networks when you create a virtual machine.
+
+Things to know about creating virtual networks
+Review the following requirements for creating a virtual network.
+
+When you create a virtual network, you need to define the IP address space for the network.
+
+Plan to use an IP address space that's not already in use in your organization.
+
+The address space for the network can be either on-premises or in the cloud, but not both.
+
+Once you create the IP address space, it can't be changed. If you plan your address space for cloud-only virtual networks, you might later decide to connect an on-premises site.
+
+To create a virtual network, you need to define at least one subnet.
+
+Each subnet contains a range of IP addresses that fall within the virtual network address space.
+
+The address range for each subnet must be unique within the address space for the virtual network.
+
+The range for one subnet can't overlap with other subnet IP address ranges in the same virtual network.
+
+You can create a virtual network in the Azure portal. Provide the Azure subscription, resource group, virtual network name, and service region for the network.
